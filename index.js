@@ -1,16 +1,14 @@
 // Code your solutions in this file
 
+const names = [ 'Lisa', 'Kaitlin', 'Jan' ];
 
-
-function writeCards(name) {
-  let i = 0; 
-  while (i <= name.length) {
-    console.log('Thank you, ${name}, for the wonderful birthday gift!');
-    i++;
-  }
-
-  return name;
+function writeCards(names) {
+    for (let i = 0; i < names.length; i++) {
+        console.log("Thank you, ${names}, for the wonderful surprise gift!");
+    }
+    return names; 
 }
+
 
 function countDown(number){
     let countup = 0;
